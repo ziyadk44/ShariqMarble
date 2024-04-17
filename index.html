@@ -7,101 +7,146 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
 
     <title>Shariq Marble</title>
   </head>
-  <body class="bg-dark">
-    <nav class="navbar navbar-light bg-dark ">
-      <div class="container-fluid d-flex justify-content-center ">
+  <body class="bg-dark" style="background-image: url(.//Assets/bg.jpg);">
+    
+    <nav class="navbar navbar-light ">
+      <div class="container-fluid d-flex justify-content-center shadow ">
         <a class="navbar-brand " href="#">
-          <h1 class="text-white">SHARIQ MARBLES</h1>
+          <h1 class="text-white mt-3" style="font-family: girassol; font-size: 55px;">Shariq Marbles</h1>
         </a>
       </div>
     </nav>
-    
+    <!-- Social Links -->
     <div class="d-grid gap-3 mx-5 mt-5 text-center text-white">
-      <div class="p-2 "><a href="tel:+919617206964"><button class="btn btn-warning w-100">Call Wasiq Khan</button></a></div>
-      <div class="p-2 "><a href="tel:+919826222617"><button class=" btn btn-warning w-100">Call Shariq Khan</button></a></div>
-      <div class="p-2 "><a href="mailto:wasiqmarble@gmail.com"><button class="btn btn-warning w-100">Mail Us</button></a></div>
-      <div class="p-2 "><a href="https://maps.app.goo.gl/CHRUPNPv1EFswkGd7"><button class="btn btn-warning w-100">Find Us On Google Maps</button></a></div>
+      <div class="p-2 shadow"><a href="tel:+919617206964"><button class="btn btn-warning w-100">Call Wasiq Khan</button></a></div>
+      <div class="p-2 shadow"><a href="tel:+919826222617"><button class=" btn btn-warning w-100">Call Shariq Khan</button></a></div>
+      <div class="p-2 shadow"><a href="mailto:wasiqmarble@gmail.com"><button class="btn btn-warning w-100">Mail Us</button></a></div>
+      <div class="p-2 shadow"><a href="https://maps.app.goo.gl/CHRUPNPv1EFswkGd7"><button class="btn btn-warning w-100">Find Us On Google Maps</button></a></div>
+      <div class="p-2 shadow"><a href=" https://wa.me/+919617206964"><button class="btn btn-success w-100">Whatsapp Us</button></a></div>
       <div class="p-2 ">Leave us a Review!</div>
     </div>
+    <!-- Carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade m-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Assets/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/8.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Products -->
     <div class="container px-4 py-5 text-white" id="icon-grid">
       <h2 class="pb-2 border-bottom">Our Dealings</h2>
   
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Manufacturer and Supplier of RED Quartz(Lava Stone)</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+         
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Custom Dining Table Tops</h3>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Custom Dining Table Tops <span class="badge bg-danger">Trending</span></h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+          
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Centre Table Tops</h3>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Centre Table Tops <span class="badge bg-danger">Trending</span></h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Italian Marble</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Onyx</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+         
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Composite Marble</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+          
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Nano White</h3>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Nano White <span class="badge bg-danger">Trending</span></h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Kota</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Dholpur</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">All kinds of Marble and Granite</h3>
             
           </div>
         </div>
         <div class="col d-flex align-items-start">
-          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+          
           <div>
             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">And a lot more!</h3>
             <p>Contact us to get your dream project fulfilled!</p>
